@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --ff-texting: 'Roboto', sans-serif;
+
+    --fs-heading: 4.8rem;
+    --fs-texting: 1.8rem;
+}
+
+body {
+    padding: 0 0 2rem;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    font-family: var(--ff-texting);
+    font-size: var(--fs-texting);
+}
+
+.home-bg {
+    background-image: url(./assests/mountains-universe-1.png);
+}
+
+.universe-bg {
+    background-image: url(./assests/mountains-universe02.png);
+}
+
+.exploration-bg {
+    background-image: url(./assests/mountains-universe-3.png);
+}
+
+
+nav {
+    padding: 4rem 0 4rem 7.2rem;
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+    margin-bottom: 6.3rem;
+    font-weight: 400;
+}
+
+nav a {
+    color: #C4C4CC;
+    text-decoration: none;
+    line-height: 2.1rem;
+    font-size: var(--fs-texting);
+    font-weight: 400;
+}
+
+.pressed {
+    font-weight: 700;
+    color: white;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+h1 {
+    font-size: var(--fs-heading);
+}
+
+h2 {
+    margin-left: 6rem;
+}
+
+.apphome{
+    min-height:60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 42rem;
+    height: 13.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper h1 {
+    font-size: var(--fs-heading);
+    margin-bottom: 2.4rem;
+    text-align: center;
+}
+
+.wrapper a {
+    width: 20rem;
+    height: 4.8rem;
+
+    margin: 0 auto;
+    padding: 1.2rem 3.2rem;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+    text-decoration: none;
+    color: #FFF;
+}
+
+.wrapper a:hover{
+    background-color: #FFF;
+    color: #02799D;
+}
+
+section {
+    width:75rem;
+    min-height: 27rem;
+    padding-left: 10rem;
+    line-height: 2.9rem;
+}
+
+section h1 {
+    margin-bottom: 3rem;
+}
+
